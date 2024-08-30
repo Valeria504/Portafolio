@@ -2,7 +2,7 @@
 
 .navbar {
   padding: 2rem;
-  background-color: #f5f6f7;
+  background-image: url(https://th.bing.com/th/id/OIP.CJp1T0qkiI1YqlkM3fdXEgAAAA?rs=1&pid=ImgDetMain);
 }
 
 .navbar-collapse {
@@ -20,29 +20,31 @@ section {
 }
 
 h1 {
-  font-size: 2.5rem;
-  font-family: 'Rubik Dirt', cursive;
+  font-size: 1cm;
+  font-family: "Sevillana", cursive;
 }
 
 .seccion-oscura {
   color: white;
-  background-color: #1b1b32;
+  background-image: url(https://th.bing.com/th/id/OIP.CJp1T0qkiI1YqlkM3fdXEgAAAA?rs=1&pid=ImgDetMain);
 }
 
 .seccion-clara {
-  color: black;
+  color: rgb(223, 37, 37);
   background-color: white;
+  font-family: "Baskervville SC", serif;
+
 }
 
 .seccion-titulo {
-  font-size: 2rem;
+  font-size: 1cm;
   padding: 15px 0;
-  font-family: 'Rubik Dirt', cursive;
+  font-family: "Sevillana", cursive;
 }
 
 .seccion-descripcion {
   font-size: 1.2rem;
-  color: #584e4e;
+  color: #df2323;
 }
 
 .seccion-texto {
@@ -55,7 +57,7 @@ h1 {
 }
 
 .texto-negro {
-  color: black;
+  color: rgb(250, 26, 26);
 }
 
 .texto-blanco {
@@ -65,7 +67,7 @@ h1 {
 /* Seccion Hero */
 
 .hero {
-  background-color: #f5f6f7;
+  background-color: white;
   min-height: 450px;
   text-align: center;
 }
@@ -95,6 +97,7 @@ h1 {
 .sobre-mi .contenedor {
   max-width: 600px;
   text-align: center;
+  background-color: #fc7373;
 }
 
 /* Experiencia */
@@ -112,16 +115,16 @@ h1 {
   justify-content: space-evenly;
   transition: all 0.2s ease-in;
 }
-
+/*color letras y al dar click en Seccion de copetencias, cursos y estudiantes*/
 .experiencia .columna:hover {
-  color: white;
-  background-color: #1b1b32;
+  color: black;
+  background-color:#FF6666;
 }
 
 .experiencia i {
   font-size: 2.5rem;
-  color: #7ade30;
-  background-color: #0a0a23;
+  color: #8730de;
+  background-color: #ec4294;
   padding: 8px 19px;
   border-radius: 50%;
 }
@@ -193,13 +196,17 @@ h1 {
 .overlay .iconos-contenedor {
   display: flex;
 }
-
+/*Color de GitHUP al seleccionar*/
 .overlay i {
   color: black;
   font-size: 60px;
   margin: 10px;
 }
 
+.btn-info{
+  background-color: #8f2cdb;
+
+}
 
 /* Testimonios */
 
@@ -212,7 +219,8 @@ h1 {
 }
 
 .carousel-item {
-  height: 500px;
+  height: 600px;
+  background-color: #ec4294;
 }
 
 .carousel-item .container {
@@ -222,6 +230,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #FF6666 ;
 }
 
 .testimonio-imagen {
@@ -232,8 +241,8 @@ h1 {
 
 .testimonio-texto {
   max-width: 70%;
-  font-size: 20px;
-  text-align: center;
+  font-size: 15px;
+  text-align: justify;
   font-family: 'Share Tech Mono', monospace;
 }
 
@@ -252,7 +261,7 @@ h1 {
 
 .testimonio-info .cargo {
   font-size: 0.9rem;
-  color: #656060;
+  color: #800f0f;
 }
 
 /* Contacto */
@@ -265,7 +274,7 @@ h1 {
 
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: rgb(13, 110, 253);
+  background-color: #467ae1;
   border-radius: 10px;
   box-shadow: 0px 1px 4px 1px white;
 }
@@ -277,15 +286,15 @@ h1 {
 }
 
 .contacto .descripcion {
-  color: white;
+  color: black;
   font-size: 1.2rem;
 }
 
 .contacto button {
-  color: white;
+  color: black;
   font-weight: bold;
   background-color: transparent;
-  border: 2px solid white;
+  border: 2px solid black;
   padding: 1.25em 2em;
   margin: 10px;
   border-radius: 100px;
@@ -293,12 +302,12 @@ h1 {
 }
 
 .contacto button:hover {
-  background-color: white;
+  background-color:  #8f2cdb;
   color: black;
 }
 
 .contacto button i {
-  color: white;
+  color: rgb(25, 88, 183);
   font-size: 1.3rem;
   transition: all 0.2s ease-in-out;
 }
@@ -323,7 +332,7 @@ footer {
   font-size: 1.5rem;
   padding: 20px;
   margin-bottom: 30px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Baskervville SC", serif;
 }
 
 .iconos-redes-sociales a {
